@@ -24,15 +24,15 @@ export default class CreatureGallery extends Component {
         });
         return (
         <>
-        <div className="filter-boxes">
-            <select onChange={this.hornFilter}>
+        <div className="filter-family">
+            <select onChange={this.hornFilter} className="filter-box">
                 <option value="">ALL HORNS</option>
                 <option value="1">One Horn</option>
                 <option value="2">Two Horns</option>
                 <option value="3">Three Horns</option>
                 <option value="100">One-Hundred Horns</option>
             </select>
-            <select onChange={this.hornFilter}>
+            <select onChange={this.hornFilter} className="filter-box">
                 <option value="">ALL KEYWORDS!</option>
                 <option value="narwhal"> Narwhal</option>
                 <option value="rhino">Rhino</option>

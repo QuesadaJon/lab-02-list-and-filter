@@ -24,9 +24,20 @@ body {
   background-color: #D08C60;
 }
 
-.filter-boxes{
-
+.filter-family{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center;
+  width: 25%;
 }
+
+.filter-box{
+  border-radius: 10px;
+  width: 200px;
+ 
+}
+
 .creature-name{
   display: flex;
   width: 75%;

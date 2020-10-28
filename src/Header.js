@@ -4,7 +4,7 @@ export default class Header extends Component {
     render() {
         return (
             <div className='header'>
-                Horned Creatures: A Gallery
+                Horned Creatures: A Photo Gallery
             </div>
         )
     }
